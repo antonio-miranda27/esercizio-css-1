@@ -1,0 +1,17 @@
+h1,h2,h3{font-family: 'Baskerville',sans-serif;}
+h1,h2,h3{color: blueviolet;}
+
+h3{height: 5vh;
+   background-size: 20%;
+   background-image: linear-gradient(red, yellow);}
+
+div{font-family: 'calibri',sans-serif;
+    background-color: gray;}
+
+.white{color: white;}
+
+section{background-color: black;}
+
+.immagini{background-image: url(https://picsum.photos/200);}
+
+
