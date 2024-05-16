@@ -1,5 +1,6 @@
-h1,h2,h3{font-family: 'Baskerville',sans-serif;}
-h1,h2,h3{color: blueviolet;}
+h1,h2,h3{font-family: 'Baskerville',sans-serif;
+         color: blueviolet}
+
 
 h3{height: 5vh;
    background-size: 20%;
@@ -8,10 +9,15 @@ h3{height: 5vh;
 div{font-family: 'calibri',sans-serif;
     background-color: gray;}
 
-.white{color: white;}
+.white{color: white;
+       font-family: 'roboto',sans-serif;}
 
 section{background-color: black;}
 
 .immagini{background-image: url(https://picsum.photos/200);}
+
+.button:hover{background-color: green;
+              color: blue;}
+
 
 
