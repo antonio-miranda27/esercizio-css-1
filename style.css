@@ -1,23 +1,37 @@
-h1,h2,h3{font-family: 'Baskerville',sans-serif;
-         color: blueviolet}
+p{font-family: "Roboto Condensed", sans-serif;
+  color: white;}
 
+nav{background-color: rgb(238, 55, 55);}
 
-h3{height: 5vh;
-   background-size: 20%;
-   background-image: linear-gradient(red, yellow);}
+.logoaulab{width: 150px;height: 150px;}
 
-div{font-family: 'calibri',sans-serif;
-    background-color: gray;}
+.linea{text-decoration: none;
+       color: black;
+       font-size: 20px;}
 
-.white{color: white;
-       font-family: 'roboto',sans-serif;}
+.linklista{list-style-type: none;}       
 
-section{background-color: black;}
+header{background-image: url(https://picsum.photos/200);
+       height: 80vh; 
+       background-size: cover;
+       background-position: center;
+       text-align: center;}
 
-.immagini{background-image: url(https://picsum.photos/200);}
+h1{font-size: 70px;
+   color: red;}
 
-.button:hover{background-color: green;
-              color: blue;}
+h2,h4{color: red;
+     font-family: 'oswald',sans-serif;}
 
+.linkcasa{text-decoration: none;
+          color: red;
+          font-size: 30px;}   
 
+.blink{background-color: black;
+       color: white;}
+
+.blink:hover{background-color: red;
+             color: black;}
+
+.art{background-color: black;}
 

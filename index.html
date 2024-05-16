@@ -5,88 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <nav class="immagini">
-        <img src="https://aulab.it/wp-content/uploads/2023/04/aulab-logo.svg" alt="aulab_logo">
-        <ul>
-            <li><a href="">corsi</a></li>
-            <li><a href="">guide</a></li>
-            <li><a href="">blog</a></li>
-            <li><a href="">perche aulab</a></li>
-            <li><a href="">lavora con noi</a></li>
+    <nav>
+        <img src="https://aulab.it/wp-content/uploads/2023/04/aulab-logo.svg" alt="logo aulab" class="logoaulab">
+        <ul class="linklista">
+            <li><a class="linea" href="">corsi</a></li>
+            <li><a class="linea" href="">perche aulab</a></li>
+            <li><a class="linea" href="">guide</a></li>
+            <li><a class="linea" href="">blog</a></li>
+            <li><a class="linea" href="">lavora con noi</a></li>
         </ul>
     </nav>
-    <section>
-        <div>
-            <header>
-            <h1>
-                BLOG
-            </h1>
-            </header>
-        </div>
-    </section>
-    <section>
-        <main>
-        <div>
-            <h2>
-                Articoli in evidenza
-            </h2>
-            <section>
-                <article>
-                <img src="./media/come imparare.jpg" alt="come imparare">
-                <div>
-                    <h3>Cos’è il linguaggio HTML e come impararlo</h3>
-                </div>
-                <div class="white">
-                    Il linguaggio HTML (Hypertext Markup Language) è uno dei più conosciuti e diffusi: lo si trova infatti praticamente in tutte le pagine web esistenti.
-                </div>
-                <div>
-                    <a href="https://aulab.it/notizia/250/cose-il-linguaggio-html-e-come-impararlo">leggi tutto</a>
-                </div>
-                </article>
-            </section>
-        </div>
-        <div>
-            <section>
-                <article>
-                <img src="./media/programmare.jpg" alt="Corso Javascript">
-                <div>
-                    <h3>Corso Javascript online: cosa c’è da sapere</h3>
-                </div>
-                <div class="white">
-                    Essere uno sviluppatore web vuol dire imparare più linguaggi di programmazione per poter creare diversi tipi di applicazioni.
-                </div>
-                <div class="white">
-                    <a href="https://aulab.it/notizia/195/corso-javascript-online-cosa-ce-da-sapere">leggi tutto</a>
-                </div>
-                </article>
-            </section>
-        </div>
-        <div>
-            <section>
-                <article>
-                <img src="./media/articolo.jpg" alt="Come imparare">
-                <div>
-                    <h3>Come imparare a programmare con un corso PHP</h3>
-                </div>
-                <div class="white">
-                    Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestiere comporta.
-                </div>
-                <div>
-                    <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php">leggi tutto</a>
-                </div>
-                </article>
-            </section>
-        </div>
-        </main>
-    </section>
-    <footer>
-        <div>
-            <h4>Aulab</h4>
-        </div>
-    </footer>
-    
+
+
+
+    <header>
+        <h1>
+            <h1>Blog</h1>
+            <a class="linkcasa" href="">home</a>
+        </h1>
+    </header>
+
+
+
+     <main>
+        <h2>Articoli in evidenza</h2>
+        <article class="art">
+            <img src="./media/come imparare.jpg" alt="imparare hmtl">
+            <p>16 maggio 2024</p>
+            <h4>Cos’è il linguaggio HTML e come impararlo</h4>
+            <p>Il linguaggio HTML (Hypertext Markup Language) è uno dei più conosciuti e diffusi: lo si trova infatti praticamente in tutte le pagine web esistenti. È una scelta popolare tra i principianti che si avvicinano alla programmazione informatica per la prima volta, grazie alla sua diffusione e alla sua semplicità.</p>
+            <button class="blink">LEGGI TUTTO</button>
+        </article>
+
+
+    <article class="art">
+         <img src="./media/articolo.jpg" alt="corso javascript">
+         <p>16 maggio 2024</p>
+         <h4>Corso Javascript online: cosa c’è da sapere</h4>
+         <p>Essere uno sviluppatore web vuol dire imparare più linguaggi di programmazione per poter creare diversi tipi di applicazioni. 
+         Per ogni applicazione, la maggior parte delle volte, serve conoscere più di un linguaggio. Per creare un sito web, ad esempio, abbiamo bisogno di conoscere più linguaggi per poter strutturare il frontend e il backend.</p>
+            <button class="blink">LEGGI TUTTO</button>   
+    </article>
+
+
+    <article class="art">
+        <img src="./media/programmare.jpg" alt="imparare a programmare">
+        <p>16 maggio 2024</p>
+        <h4>Come imparare a programmare con un corso PHP</h4>
+        <p>Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestiere comporta.
+        Oggi le richieste sul mercato sono molteplici, in Italia parliamo di 100.000 posti disponibili per gli sviluppatori web e le richieste per assumere una risorsa sono molto complicate, soprattutto perché si ricercano figure sempre più qualificate e che, nonostante la giovane età, abbiano diversi anni di esperienza alle spalle.</p>
+            <button class="blink">LEGGI TUTTO</button>
+    </article>    
+    </main>
     
 </body>
 </html>
